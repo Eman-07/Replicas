@@ -183,14 +183,7 @@ public class MainWindow extends Application {
         contacts.add(new Contact("sami", "03038822180"));
 //        contacts.get(0).setContactImage(new Image("file:sami2.png"));
         contacts.add(new Contact("John Doe", "123123"));
-//        contacts.add(new Contact("gen Asim", "456456"));
-//        contacts.add(new Contact("Gen Bajwa", "1213113"));
-//        contacts.add(new Contact("Lumber 1", "23232333"));
-//        contacts.add(new Contact("Lumber 2", "23232333"));
-//        contacts.add(new Contact("Lumber 3", "23232333"));
-//        contacts.add(new Contact("Lumber 4", "23232333"));
-//        contacts.add(new Contact("Lumber 5", "23232333"));
-//        contacts.add(new Contact("Lumber 6", "23232333"));
+
 
         contacts.get(0).addMessage(new Message("hello","You"));
         contacts.get(0).addMessage(new Message("wassup","Eman"));
