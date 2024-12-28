@@ -114,7 +114,7 @@ public class ClownAi {
         TextArea chat = new TextArea();
         chat.setEditable(false);
         chat.setWrapText(true);
-        chat.appendText("Ai  : Hi there!!! How may I assist You?\n");
+        chat.appendText("Ai  : Hi there!!! Ai will not work unless you put API KEY in generate_response.py\n");
 
         chat.setOnKeyPressed(event->{
             if (event.getCode() == KeyCode.BACK_SPACE){
